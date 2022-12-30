@@ -1,4 +1,4 @@
-package pleasure_go
+package pleasure_go 
 
 func Reduce[T any, U any](entity []T, cb func(acc U, item T) U, structure U) U {
 	var acc U = structure
